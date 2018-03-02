@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="popup.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h2>Link It!</h2>
+    <!--<p>Type something in the input field to search the table for first names, last names or emails:</p>-->
+    <input id="myInput" type="text" placeholder="Search..">
+    <button id="add-button" type="button">+</button>
+
+    <br><br>
+
+    <!-- Whatever I search I want the results to be added to clipboard-->
+    <div class="result-area" style="overflow-x:auto;">
+        <table>
+            <thead>
+                <tr>
+                    <th>Search Results...</th>
+                </tr>
+            </thead>
+            <tbody id="myTable">
+                <tr>
+                    <td class="results">Dashboard > Customers</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Orders > Orders</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Orders > Quotes</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Orders > Transactions</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Orders > Virual Terminal</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Products</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Categories</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Manufacturers</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Variant Groups</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Attributes</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Catalog > Embed Tools</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Blog Posts</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Pages</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Contact Forms</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Files</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Menus & Navigation</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Content > Store Terminals</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Reports > Visitor Sessions</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Reports > Marketing Reports</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Reports > Sales Reports</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Reports > Visitor Reports</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Marketing > Email Template</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Marketing > Discounts</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Marketing > Gift Certificates</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Marketing > Mailing Lists</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Apps & Addons</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Data Import</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Data Export</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Send Email</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Purge CDN</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Clear Cache</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Tools > Support Tools</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Themes > Edit</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Store Information</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > In Person</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Payment & Taxes</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Shipping</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > People</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Catalog</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Orders</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Blogs & Content</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Marketing</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Search Engine</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Microstores</td>
+                </tr>
+                <tr>
+                    <td class="results">Dashboard > Settings > Security</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <p>Note: Triple click to add link to clipboard</p>
+
+</body>
+
+</html>
