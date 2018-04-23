@@ -40,7 +40,7 @@ We use [Github](http://github.com) for versioning. For the versions available, s
 
 ## Authors
 
-* **Fredrick Ryans** - *Initial work* - [Gremlokk](https://github.com/gremlokk)
+**Fredrick Ryans** - *Initial work* - [Gremlokk](https://github.com/gremlokk)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
@@ -50,5 +50,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* This project was inspired to increase productivity by allowing users to have a easy way to send web pages to themselves fast.
+This project was inspired to increase productivity by allowing users to have a easy way to send web pages to themselves fast.
 
