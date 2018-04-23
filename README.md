@@ -9,7 +9,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-Make sure that you have a valid email address. You will need to go into the main file to edit the email address to start using the application.
+Make sure that you have a valid email address. 
+You will need to go into the main file to edit the email address to start using the application.
 ```
 
 ### Installing
@@ -35,7 +36,7 @@ Please read [CONTRIBUTING.md](https://github.com/gremlokk) for details on our co
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [Github](http://github.com) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
