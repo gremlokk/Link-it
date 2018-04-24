@@ -1,6 +1,6 @@
 # Link-it
 
-This application was created to provide an easy way for users to email website links to themselves. With just a double click of the button, the user will be able to send information to their email the simple, fast, and right way. :D
+This application allows Americommerce support agents to increase their productivity with working on tickets by providing an easy and fast way to copy/paste navigation links in tickets. 
 
 ## Getting Started
 
