@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Link it - Powered By Americommerce",
+  "name": "Link it",
   "description": "This extension allows the user to search for a link and copy/paste to a text area.",
   "version": "1.0",
 
