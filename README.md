@@ -1,6 +1,6 @@
 # Link-it
 
-This application allows Americommerce support agents to increase their productivity with working on tickets by providing an easy and fast way to copy/paste navigation links in tickets. 
+This application allows Americommerce support agents to increase their productivity with working on tickets by providing an easy and fast way to copy/paste navigation links in tickets. (Project Ongoing)
 
 ## Getting Started
 
